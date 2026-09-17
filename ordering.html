@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>The Daily Grind Eatery | Order Online</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <h1 class="logo">
+                The Daily Grind Eatery
+            </h1>
+
+            <ul class="navigation">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="ordering.html">Order Online</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <section class="page-heading">
+
+        <h2>Order Online</h2>
+
+        <p>
+            Choose your favourite food and place your order.
+        </p>
+
+    </section>
+
+
+    <section class="form-section">
+
+        <form id="orderForm">
+
+            <h2>Customer Details</h2>
+
+
+            <label for="customerName">
+                Full Name:
+            </label>
+
+            <input
+                type="text"
+                id="customerName"
+                required
+            >
+
+
+            <label for="phone">
+                Phone Number:
+            </label>
+
+            <input
+                type="tel"
+                id="phone"
+                required
+            >
+
+
+            <label for="email">
+                Email Address:
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                required
+            >
+
+
+            <h2>Order Type</h2>
+
+
+            <label for="orderType">
+                Collection or Delivery:
+            </label>
+
+            <select id="orderType" required>
+
+                <option value="">
+                    Select an option
+                </option>
+
+                <option value="collection">
+                    Collection
+                </option>
+
+                <option value="delivery">
+                    Delivery
+                </option>
+
+            </select>
+
+
+            <label for="address">
+                Delivery Address:
+            </label>
+
+            <textarea
+                id="address"
+                rows="3"
+                placeholder="Enter your address if you selected delivery"
+            ></textarea>
+
+
+            <h2>Choose Your Food</h2>
+
+
+            <div class="order-items">
+
+
+                <div class="order-item">
+
+                    <h3>Avocado Toast</h3>
+
+                    <p>Fresh avocado on sourdough bread.</p>
+
+                    <p><strong>R50</strong></p>
+
+                    <label for="toast">
+                        Quantity:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="toast"
+                        class="quantity"
+                        data-price="50"
+                        min="0"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <div class="order-item">
+
+                    <h3>Beef & Potato Sandwich</h3>
+
+                    <p>
+                        Beef, lettuce, tomato, cheese and fries.
+                    </p>
+
+                    <p><strong>R100</strong></p>
+
+                    <label for="sandwich">
+                        Quantity:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="sandwich"
+                        class="quantity"
+                        data-price="100"
+                        min="0"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <div class="order-item">
+
+                    <h3>Creamy Pasta Prawns</h3>
+
+                    <p>
+                        Creamy pasta with prawns and fresh herbs.
+                    </p>
+
+                    <p><strong>R145</strong></p>
+
+                    <label for="pasta">
+                        Quantity:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="pasta"
+                        class="quantity"
+                        data-price="145"
+                        min="0"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <div class="order-item">
+
+                    <h3>Fresh Juice</h3>
+
+                    <p>Fresh seasonal fruit juice.</p>
+
+                    <p><strong>R35</strong></p>
+
+                    <label for="juice">
+                        Quantity:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="juice"
+                        class="quantity"
+                        data-price="35"
+                        min="0"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <div class="order-item">
+
+                    <h3>Coffee</h3>
+
+                    <p>Freshly brewed coffee.</p>
+
+                    <p><strong>R30</strong></p>
+
+                    <label for="coffee">
+                        Quantity:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="coffee"
+                        class="quantity"
+                        data-price="30"
+                        min="0"
+                        value="0"
+                    >
+
+                </div>
+
+
+                <div class="order-item">
+
+                    <h3>Soft Drink</h3>
+
+                    <p>Refreshing cold soft drink.</p>
+
+                    <p><strong>R25</strong></p>
+
+                    <label for="drink">
+                        Quantity:
+                    </label>
+
+                    <input
+                        type="number"
+                        id="drink"
+                        class="quantity"
+                        data-price="25"
+                        min="0"
+                        value="0"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <h2>Special Instructions</h2>
+
+            <textarea
+                id="instructions"
+                rows="4"
+                placeholder="Any special instructions?"
+            ></textarea>
+
+
+            <h2>Payment Method</h2>
+
+            <select id="payment" required>
+
+                <option value="">
+                    Select payment method
+                </option>
+
+                <option value="cash">
+                    Cash
+                </option>
+
+                <option value="card">
+                    Card
+                </option>
+
+                <option value="eft">
+                    EFT
+                </option>
+
+            </select>
+
+
+            <div class="order-summary">
+
+                <h2>Order Summary</h2>
+
+                <p>
+                    Subtotal:
+                    R<span id="subtotal">0.00</span>
+                </p>
+
+                <p>
+                    Delivery:
+                    R<span id="deliveryFee">0.00</span>
+                </p>
+
+                <hr>
+
+                <h2>
+                    Total:
+                    R<span id="total">0.00</span>
+                </h2>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Place Order
+            </button>
+
+        </form>
+
+
+        <div
+            id="confirmation"
+            class="confirmation"
+        >
+
+            <h2>Order Received!</h2>
+
+            <p id="confirmationMessage"></p>
+
+            <a
+                href="index.html"
+                class="button"
+            >
+                Return Home
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 The Daily Grind Eatery. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script>
+
+        const quantities =
+            document.querySelectorAll(".quantity");
+
+        const orderType =
+            document.getElementById("orderType");
+
+        const subtotalElement =
+            document.getElementById("subtotal");
+
+        const deliveryFeeElement =
+            document.getElementById("deliveryFee");
+
+        const totalElement =
+            document.getElementById("total");
+
+
+        function calculateTotal() {
+
+            let subtotal = 0;
+
+            quantities.forEach(function(item) {
+
+                const quantity =
+                    Number(item.value);
+
+                const price =
+                    Number(item.dataset.price);
+
+                subtotal += quantity * price;
+
+            });
+
+
+            let deliveryFee = 0;
+
+            if (orderType.value === "delivery") {
+
+                deliveryFee = 40;
+
+            }
+
+
+            const total =
+                subtotal + deliveryFee;
+
+
+            subtotalElement.textContent =
+                subtotal.toFixed(2);
+
+            deliveryFeeElement.textContent =
+                deliveryFee.toFixed(2);
+
+            totalElement.textContent =
+                total.toFixed(2);
+
+        }
+
+
+        quantities.forEach(function(item) {
+
+            item.addEventListener(
+                "input",
+                calculateTotal
+            );
+
+        });
+
+
+        orderType.addEventListener(
+            "change",
+            calculateTotal
+        );
+
+
+        document
+            .getElementById("orderForm")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+
+                let itemSelected = false;
+
+
+                quantities.forEach(function(item) {
+
+                    if (Number(item.value) > 0) {
+
+                        itemSelected = true;
+
+                    }
+
+                });
+
+
+                if (!itemSelected) {
+
+                    alert(
+                        "Please select at least one item."
+                    );
+
+                    return;
+
+                }
+
+
+                const name =
+                    document.getElementById(
+                        "customerName"
+                    ).value;
+
+                const total =
+                    totalElement.textContent;
+
+
+                document.getElementById(
+                    "confirmationMessage"
+                ).textContent =
+                    "Thank you, " +
+                    name +
+                    ". Your order has been received. " +
+                    "Your total is R" +
+                    total +
+                    ".";
+
+
+                document.getElementById(
+                    "orderForm"
+                ).style.display = "none";
+
+
+                document.getElementById(
+                    "confirmation"
+                ).style.display = "block";
+
+            });
+
+    </script>
+
+</body>
+</html>
