@@ -7,7 +7,9 @@ DINM0601
 Part 2 of The Daily Grind Cafe(CSS)
 
 References
-
+Web Development POE
+ChatGPT
+CSS introduction and tutorial for beginners. (2022). [Video] Directed by D. Gray. YouTube. Available at: https://www.youtube.com [Accessed 18 Sept. 2026].OpenAI (2025). ChatGPT. [online] chatgpt.com. Available at: https://chatgpt.com [Accessed 18 Sept. 2026].Pexels (2014). Free stock photos · pexels. [online] Pexels.com. Available at: https://www.pexels.com [Accessed 18 Sept. 2026].Pinterest (2025). Pinterest. [online] Pinterest. Available at: https://www.pinterest.com [Accessed 18 Sept. 2026].
 
 
 
