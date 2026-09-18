@@ -21,7 +21,6 @@ body {
     background-color: #f8f5f0;
     color: #333333;
     line-height: 1.6;
-    background-image: url("../images/background.jpg");
 }
 
 
@@ -85,32 +84,18 @@ nav {
             rgba(0, 0, 0, 0.55),
             rgba(0, 0, 0, 0.55)
         ),
-        url("../images/.jpg");
+        url("../images/hero\ image.jpg.png");
 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
     text-align: center;
-}
-
-.hero-content {
-    max-width: 800px;
-    padding: 30px;
     color: white;
-}
-
-.hero h2 {
-    font-size: 52px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 21px;
-    margin-bottom: 25px;
 }
 
 
