@@ -10,14 +10,14 @@ References
 
 
 
-![alt text](<Screenshot (180).png>)
-Screenshot of website dispaly on a laptop
+![alt text](<Screenshot (185).png>)
+Screenshot of website display on a smart diplay
 
-![](<Screenshot (181).png>)
+![alt text](<Screenshot (183).png>)
 Screenshot of website display on a tablet
 
-![alt text](<Screenshot (182).png>)
-Screenshot of website dispaly on a phone
+![alt text](<Screenshot (184).png>)
+Screenshot of website display on a phone
 
 
 Changelog for all changes commited in part 2 
